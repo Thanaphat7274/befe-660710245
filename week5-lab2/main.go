@@ -10,7 +10,7 @@ type User struct {
 }
 
 func getUsers(c *gin.Context) {
-	user := []User{{ID: "1", Name: "Kanisorn"}}
+	user := []User{{ID: "1", Name: "Thanaphat"}}
 	c.JSON(200, user)
 }
 func main() {
