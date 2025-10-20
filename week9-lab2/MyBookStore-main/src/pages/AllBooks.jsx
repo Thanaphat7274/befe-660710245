@@ -137,12 +137,22 @@ const BookListPage = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 text-gray-900">
+    <div className="min-h-screen bg-red-50 text-red-900">
       <div className="container mx-auto px-4 py-8">
         {/* Page Header */}
         <div className="mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">หนังสือทั้งหมด</h1>
-          <p className="text-gray-600">ค้นพบหนังสือที่คุณชื่นชอบจากคอลเล็กชันของเรา</p>
+          <div className="flex items-center justify-between">
+            <div>
+              <h1 className="text-4xl font-bold text-gray-900 mb-4">หนังสือทั้งหมด</h1>
+              <p className="text-gray-600">ค้นพบหนังสือที่คุณชื่นชอบจากคอลเล็กชันของเรา</p>
+              <button
+                onClick={() => navigate('/store-manager/add-book')}
+                className="px-4 py-2 bg-viridian-600 text-black rounded-lg hover:bg-viridian-700"
+              >
+                เพิ่มหนังสือใหม่
+              </button>
+            </div>
+          </div>
         </div>
         
         {/* Filters and Search */}

@@ -23,7 +23,7 @@ const LoginPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-viridian-600 to-green-700 flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-blue-50 flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-md w-full space-y-8">
         <div>
           <div className="mx-auto h-16 w-16 bg-white rounded-full flex items-center justify-center">
@@ -106,9 +106,11 @@ const LoginPage = () => {
         </div>
 
         <div className="text-center">
-          <a href="/" className="text-sm text-white hover:text-viridian-100 transition-colors">
-            ← กลับสู่หน้าแรก
-          </a>
+          <div className="flex flex-col items-center gap-2">
+            <a href="/" className="text-sm text-black hover:text-viridian-100 transition-colors">
+              ← กลับสู่หน้าแรก
+            </a>
+          </div>
         </div>
       </div>
     </div>

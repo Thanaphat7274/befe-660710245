@@ -10,7 +10,8 @@ import (
 	"strings"
 	"time"
 
-	// _ "../week11lab1/docs"
+	_ "week11-lab1/docs"
+
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 	_ "github.com/lib/pq"

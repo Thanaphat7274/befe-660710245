@@ -14,9 +14,10 @@ const HomePage = () => {
   ];
 
   return (
-    <div className="min-h-screen">
+ 
+    <div className="min-h-screen bg-blue-50 text-gray-900">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-viridian-600 to-green-700 text-white">
+      <section className="relative bg-black from-viridian-600 to-green-700 text-white">
         <div className="container mx-auto px-4 py-24">
           <div className="max-w-3xl">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 animate-fade-in">
@@ -27,9 +28,9 @@ const HomePage = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link to="/books" 
-                className="inline-flex items-center justify-center px-8 py-3 bg-white 
+                className="inline-flex items-center justify-center px-8 py-3 bg-black
                 text-viridian-600 font-semibold rounded-lg hover:bg-gray-100 
-                transform hover:scale-105 transition-all duration-200">
+                transform hover:scale-105 transition-all duration-20 0 border-2 border-viridian-600 border-solid">
                 เลือกซื้อหนังสือ
                 <ArrowRightIcon className="ml-2 h-5 w-5" />
               </Link>
